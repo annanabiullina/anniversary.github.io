@@ -7,7 +7,7 @@ body {
     height: 100%;
     font-family: 'Lato',sans-serif;
 	font-weight: 300;
-    color: #666;
+    color: #555;
     background-color: #fff;
 }
 
@@ -80,8 +80,8 @@ hr {
 ============================ */
 
 .home-section {
-    padding-top: 110px;
-    padding-bottom: 110px;
+    padding-top: 50px;
+    /*padding-bottom: 110px;*/
 	display:block;
     position:relative;
     z-index:120;
@@ -457,18 +457,20 @@ input.gn-search:focus {
 #intro{	
 	background-image: url(../img/img-bg.jpg);
 	background-size: cover;
+  background-position: center center;
 }
 
 .intro .slogan {
 	padding:250px 0 60px;
 	text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.4);
 	
 }
 .intro .slogan h1 {
 	color: #fff;
 	line-height: 1.1em;
 	margin-bottom: 20px;
-	 font-size: 40px;
+	 font-size: 48px;
 }
 .intro .slogan p {
 	color: #eee;
@@ -716,6 +718,7 @@ footer a:hover {
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+    text-shadow: none;
 }
 
 

@@ -21,27 +21,11 @@
     <link href="css/style.css" rel="stylesheet">
 	<link href="color/default.css" rel="stylesheet">
 
+  <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.3/fotorama.css" rel="stylesheet">
+
 </head>
 
 <body data-spy="scroll">
-
-
-					</nav>
-				</li>
-				
-				<script type="text/javascript">(function() {
-  if (window.pluso)if (typeof window.pluso.start == "function") return;
-  if (window.ifpluso==undefined) { window.ifpluso = 1;
-    var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
-    s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
-    s.src = ('https:' == window.location.protocol ? 'https' : 'http')  + '://share.pluso.ru/pluso-like.js';
-    var h=d[g]('body')[0];
-    h.appendChild(s);
-  }})();</script>
-<div class="pluso" data-background="#ebebeb" data-options="medium,square,line,horizontal,counter,theme=05" data-services="vkontakte,facebook,twitter,google"></div>
-                        
-			</ul>
-	</div>
 
 	<!-- Section: intro -->
     <section id="intro" class="intro">
@@ -54,7 +38,7 @@
 	<!-- /Section: intro -->
 
 	<!-- Section: about -->
-    <section id="about" class="home-section text-center bg-gray">
+    <section id="about" class="home-section text-center bg-gray" style="padding-top: 80px;">
 		<div class="heading-about marginbot-50">
 			<div class="container">
 			<div class="row">
@@ -256,11 +240,12 @@
 	</section>
 	<!-- /Section: about -->
 
+  <br><br><br>
 	
 		
 	<!-- Section: works -->
     <section id="works" class="home-section text-center bg-gray">
-		<div class="heading-works marginbot-50">
+		<div class="heading-works">
 			<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
@@ -269,6 +254,7 @@
 					<h2>Но знаешь, иногда</h2>
 					<p>хочется забыть про все трудности, обязательства, взрослую жизнь, и просто оторваться!</p>
 					<p>Надеемся, ты тоже отлично проводишь время :) </p>
+          <br>
 					</div>
 		
 				</div>
@@ -280,61 +266,29 @@
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12" >
 
-                    <div class="row gallery-item">
-                        <div class="col-md-3">
-							<a href="img/works/1.jpg" title="Саша ест шляпу" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
-								<img src="img/works/1.jpg" class="img-responsive" alt="img">
-							</a>
-						</div>
-						<div class="col-md-3">
-							<a href="img/works/2.jpg" title="И это только начало!" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
-								<img src="img/works/2.jpg" class="img-responsive" alt="img">
-							</a>
-						</div>
-						<div class="col-md-3">
-							<a href="img/works/3.jpg" title="Смешные очечи" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
-								<img src="img/works/3.jpg" class="img-responsive" alt="img">
-							</a>
-						</div>
-						<div class="col-md-3">
-							<a href="img/works/4.jpg" title="Украина и Запад" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
-								<img src="img/works/4.jpg" class="img-responsive" alt="img">
-							</a>
-						</div>
-						<div class="col-md-3">
-							<a href="img/works/5.jpg" title="Лена и Марго" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
-								<img src="img/works/5.jpg" class="img-responsive" alt="img">
-							</a>
-						</div>
-						<div class="col-md-3">
-							<a href="img/works/6.jpg" title="За здоровье!" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
-								<img src="img/works/6.jpg" class="img-responsive" alt="img">
-							</a>
-						</div>
-						<div class="col-md-3">
-							<a href="img/works/7.jpg" title="Ребята" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
-								<img src="img/works/7.jpg" class="img-responsive" alt="img">
-							</a>
-						</div>
-						<div class="col-md-3">
-							<a href="img/works/8.jpg" title="Диме весело :)" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
-								<img src="img/works/8.jpg" class="img-responsive" alt="img">
-							</a>
-						</div>
-					</div>
-	
+                <div class="fotorama" style="width: 100%; max-width: 900px; margin: 0 auto;" data-nav="thumbs" data-thumbheight="40" data-thumbwidth="40">
+                  <img src="img/works/1.jpg" data-caption="Саша ест шляпу">
+                  <img src="img/works/2.jpg" data-caption="И это только начало!">
+                  <img src="img/works/3.jpg" data-caption="Смешные очечи">
+                  <img src="img/works/4.jpg" data-caption="Украина и Запад">
+                  <img src="img/works/5.jpg" data-caption="Лена и Марго">
+                  <img src="img/works/6.jpg" data-caption="За здоровье!">
+                  <img src="img/works/7.jpg" data-caption="Ребята">
+                  <img src="img/works/8.jpg" data-caption="Диме весело :)">
                 </div>
+
             </div>	
 		</div>
 	</section>
 	<div class="section-heading">
 					
 	<!-- /Section: works -->
-	
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/w-uxH7MiWq4" frameborder="0" allowfullscreen></iframe>
+	<div style="text-align: center; padding: 100px 0 50px;">
+	<iframe width="853" height="480" src="https://www.youtube.com/embed/w-uxH7MiWq4" frameborder="0" allowfullscreen></iframe>
+</div>
 	
 	<!-- Section: services -->
-    <section id="service" class="home-section text-center">
+    <section id="service" class="home-section text-center" style="padding-bottom: 120px;">
 		
 		<div class="heading-about marginbot-50">
 			<div class="container">
@@ -399,7 +353,7 @@
 					</div>
 					<div class="service-desc">
 						<h5>Развития</h5>
-						<p>Потому что пока человек развивается — он «подаёт пример» (Юля).</p>
+						<p>Потому что пока человек развивается — он «подает пример» (Юля).</p>
 					</div>
                 </div>
 			
@@ -408,7 +362,7 @@
 		</div>
 	</section>
 	<!-- /Section: services -->
-
+  
 
 	<footer>
 		<div class="container">
@@ -430,6 +384,8 @@
 	<script src="js/jquery.scrollTo.js"></script>
 	<script src="js/nivo-lightbox.min.js"></script>
 	<script src="js/stellar.js"></script>
+
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.3/fotorama.js"></script>
     <!-- Custom Theme JavaScript -->
     <script src="js/custom.js"></script>
 
